@@ -1,0 +1,427 @@
+/* Simple styling for the login page */
+
+/* Set a full-page background image */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../images/hospital-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Center the login box */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4); /* Slight dark overlay */
+}
+
+/* Login box styling */
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+
+
+/* Headline */
+h2 {
+    margin-bottom: 20px;
+    color: #0a4b78;
+}
+
+/* Input fields and dropdown */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    background-color: #0a4b78;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #06629e;
+}
+
+/* Error message */
+#error-msg {
+    color: red;
+    margin-top: 10px;
+}
+
+/*/second---------------------/*/
+/* ------------------ DASHBOARD PAGE ------------------ */
+
+/* Layout */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background-color: #0a4b78;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sidebar-logo {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active {
+    background-color: #0d6fa4;
+    border-radius: 5px;
+}
+
+/* Main content */
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+    background-color: #f5f9fc;
+    min-height: 100vh;
+}
+
+/* Top bar */
+.top-bar {
+    background-color: #eaf5ff;
+    border-left: 5px solid #0a4b78;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.top-bar h1 {
+    margin: 0;
+    color: #0a4b78;
+}
+
+#userRole {
+    color: #096c49;
+}
+
+/* Cards section */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 220px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s;
+    border-left: 6px solid #0a4b78;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    color: #0a4b78;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 24px;
+    color: #0b703e;
+}
+
+
+
+
+/*third______________________*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0faff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.patient-list {
+    margin: 30px auto;
+    width: 85%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.patient-list h2 {
+    text-align: center;
+    color: #0077b6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #90e0ef;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.view-btn {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #d62828;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.view-btn:hover {
+    background-color: #023e8a;
+}
+
+.delete-btn:hover {
+    background-color: #9d0208;
+}
+
+
+
+
+/*fourth8*********************/
+/* ===== Add Patient Page ===== */
+.form-section {
+    width: 60%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-section h2 {
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #023e8a;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #90e0ef;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #023e8a;
+}
+
+/* Make form responsive */
+@media (max-width: 768px) {
+    .form-section {
+        width: 90%;
+    }
+}
+
+
+
+
+
+/*/ fifth______________________/*/
+
+/* ===== Appointments Page ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #90e0ef;
+    color: #023e8a;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+button.view-btn {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.delete-btn {
+    background-color: #d62828;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button.view-btn:hover {
+    background-color: #023e8a;
+}
+
+button.delete-btn:hover {
+    background-color: #9d0208;
+}
+
+
+
+
+/*sixth______________*/
+
+/* ===== Patient Details Page ===== */
+.patient-info {
+    background-color: #eaf5ff;
+    padding: 20px;
+    border-left: 6px solid #0077b6;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.patient-info p {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #023e8a;
+    font-weight: 500;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #90e0ef;
+    color: #023e8a;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
